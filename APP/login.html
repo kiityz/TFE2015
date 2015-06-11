@@ -1,0 +1,70 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left">
+      <a href="#" class="back link">
+        <img src="img/back.png">
+       </a>
+    </div>
+    <div id="titre-nav" class="center sliding">Connection</div>
+  </div>
+</div>
+
+<div class="login-screen">
+  <div class="view">
+      <div data-page="login" class="page">
+        <div id="lougin" class="page-content login-screen-content">
+           <form action="user_connected.php" method="POST">    <!-- action  method POST-->
+            <div class="list-block">
+              <ul>
+                <li class="item-content">
+                  <div class="item-inner face">
+                    <img class="icon-log facedebook" src="img/facebook.png">
+                    <div class="item-input">
+                      <a href="#" class="reseaux face-deca">Se connecter avec Facebook</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner twitt">
+                    <img class="icon-log-twitt facedebook" src="img/twitter.png">
+                    <div class="item-input">
+                      <a href="#" class="reseaux">Se connecter avec Twitter</a>
+                    </div>
+                  </div>
+                </li>
+                <div class="ou">ou</div>
+                <li class="item-content">
+                  <div class="item-inner sign">
+                    <img class="icon-log" src="img/login.png">
+                    <div class="item-input">
+                      <input type="text" name="username" placeholder="Login">
+                      <!-- PHP -->
+                      <div class="error">
+                        <?php if(isset($error_username)){ echo $error_username; } ?>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content">
+                  <div class="item-inner sign">
+                    <img class="icon-log" src="img/mdp.png">
+                    <div class="item-input">
+                      <input type="password" name="password" placeholder="Mot de passe">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="list-block">
+              <input class="form-submit" type="submit" value="Se connecter">
+              <div class="list-block-label">
+                <p>Pas encore de compte ? <a href="inscription.php" class="gras">S'inscrire maintenant !</a></p>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+  </div>
+</div>

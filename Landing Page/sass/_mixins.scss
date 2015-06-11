@@ -1,0 +1,65 @@
+@mixin devise($media) {
+  @if $media == tablet {
+    @media only screen and (max-width: 900px) { @content; }
+  }
+  @else if $media == mobile {
+    @media only screen and (max-width: 650px) { @content; }
+  }
+  @else if $media == wide {
+    @media only screen and (min-width: 1600px) { @content; }
+  }
+}
+
+
+@mixin set-cover($url){
+	background: url($url);
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+	@include devise(tablet){
+		background-attachment: scroll;
+	}
+}
+
+
+@mixin centerAbsolute(){
+    @include span(12);
+    position: absolute;
+    left: 50%;
+    margin-left: - $contentWidth / 2;
+    @include devise(tablet){ 
+      margin-left: - $contentTabletWidth / 2;
+    }
+    @include devise(mobile){ 
+      margin-left: 10%!important;
+      left: 0!important;
+      width:80%!important;
+    }
+}
+
+
+ @mixin span($val){
+    width: ($val * $colsWidth) + (($val - 1) * $margeWidth);
+    @include devise('tablet'){ 
+      width: ($val * $colsTabletWidth) + (($val - 1) * $margeTabletWidth);
+    }
+    @if $val == 12 {
+      @include devise('mobile'){ 
+        width: 80%;
+      }
+    }
+ }
+
+ @mixin decal($orientation,$val,$more:0){
+    @if $orientation == left {
+      margin-left: ($val * $colsWidth) + (($val + $more) * $margeWidth);
+      @include devise('tablet'){ 
+        margin-left: ($val * $colsTabletWidth) + (($val + $more) * $margeTabletWidth);
+      }
+    }@else {
+      margin-right: ($val * $colsWidth) + (($val + $more) * $margeWidth) !important;
+      @include devise('tablet'){ 
+        margin-right: ($val * $colsTabletWidth) + (($val + $more) * $margeTabletWidth) !important;
+      }
+    }
+ }

@@ -1,0 +1,144 @@
+.sprites-sprite, .sprites-arrow, .sprites-caro, .sprites-cloud, .sprites-emma, .sprites-ted, body #container .wrap #testimonial .caro, body #container .wrap #testimonial .ted, body #container .wrap #testimonial .emma, body #container .download .cloud { background-image: url('../images/sprites-s2b2586488b.png'); background-repeat: no-repeat; }
+
+.sprites-arrow { background-position: 0 0; }
+
+.sprites-caro { background-position: 0 -24px; }
+
+.sprites-cloud { background-position: 0 -86px; }
+
+.sprites-emma { background-position: 0 -142px; }
+
+.sprites-ted { background-position: 0 -205px; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+nav ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+a { margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+/* change colours to suit your needs */
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+/* change colours to suit your needs */
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+
+* html .clearfix { height: 1%; }
+
+@font-face { font-family: 'akzidenzgroteskbold'; src: url("../fonts/akzidenz-grotesk-bold-webfont.eot"); src: url("../fonts/akzidenz-grotesk-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/akzidenz-grotesk-bold-webfont.woff2") format("woff2"), url("../fonts/akzidenz-grotesk-bold-webfont.woff") format("woff"), url("../fonts/akzidenz-grotesk-bold-webfont.ttf") format("truetype"), url("../fonts/akzidenz-grotesk-bold-webfont.svg#akzidenzgroteskregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'alegreya_sansregular'; src: url("../fonts/alegreyasans-regular-webfont.eot"); src: url("../fonts/alegreyasans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alegreyasans-regular-webfont.woff2") format("woff2"), url("../fonts/alegreyasans-regular-webfont.woff") format("woff"), url("../fonts/alegreyasans-regular-webfont.ttf") format("truetype"), url("../fonts/alegreyasans-regular-webfont.svg#alegreya_sansregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'akzidenzgrotesklight'; src: url("../fonts/akzidenz-grotesk-light-webfont.eot"); src: url("../fonts/akzidenz-grotesk-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/akzidenz-grotesk-light-webfont.woff2") format("woff2"), url("../fonts/akzidenz-grotesk-light-webfont.woff") format("woff"), url("../fonts/akzidenz-grotesk-light-webfont.ttf") format("truetype"), url("../fonts/akzidenz-grotesk-light-webfont.svg#akzidenzgroteskregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'akzidenzgroteskregular'; src: url("../fonts/akzidenz-grotesk-roman-webfont.eot"); src: url("../fonts/akzidenz-grotesk-roman-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/akzidenz-grotesk-roman-webfont.woff2") format("woff2"), url("../fonts/akzidenz-grotesk-roman-webfont.woff") format("woff"), url("../fonts/akzidenz-grotesk-roman-webfont.ttf") format("truetype"), url("../fonts/akzidenz-grotesk-roman-webfont.svg#akzidenzgroteskregular") format("svg"); font-weight: normal; font-style: normal; }
+body { background-color: #fff; }
+body #container .introduction { padding-top: 50px; overflow: hidden; position: relative; background: url("../images/home.jpg"); background-size: cover; background-attachment: fixed; background-position: center center; height: 100%; }
+@media only screen and (max-width: 900px) { body #container .introduction { background-attachment: scroll; } }
+body #container .introduction .in-in { position: relative; margin: 0 auto; width: 900px; }
+@media only screen and (max-width: 900px) { body #container .introduction .in-in { width: 680px; } }
+@media only screen and (max-width: 650px) { body #container .introduction .in-in { width: 270px; } }
+body #container .introduction .in-in .langues { display: inline-block; float: right; }
+body #container .introduction .in-in .langues ul { list-style: none; }
+body #container .introduction .in-in .langues ul li { float: left; padding-left: 15px; }
+body #container .introduction .in-in .langues ul li a { text-decoration: none; color: #fff; font-family: akzidenzgroteskregular; }
+body #container .introduction .in-in .langues ul li a:hover { border-bottom: 2px solid #7EBE6B; }
+body #container .introduction .in-in .langues ul li .active { font-family: akzidenzgroteskbold; }
+body #container .introduction .in-in .titres { position: relative; float: left; padding-top: 50px; padding-bottom: 80px; }
+body #container .introduction .in-in .titres .logo { display: inline-block; position: relative; width: 180px; }
+body #container .introduction .in-in .titres h1 { font-family: akzidenzgroteskbold; font-size: 38px; text-transform: uppercase; line-height: 48px; color: #fff; padding-top: 80px; }
+@media only screen and (max-width: 650px) { body #container .introduction .in-in .titres h1 { font-size: 21px; line-height: 28px; padding-top: 50px; width: 270px; } }
+body #container .introduction .in-in .titres .intro { padding-top: 20px; padding-bottom: 50px; font-family: alegreya_sansregular; font-size: 20px; width: 500px; line-height: 27px; color: #fff; }
+@media only screen and (max-width: 650px) { body #container .introduction .in-in .titres .intro { font-size: 18px; line-height: 23px; width: 290px; } }
+body #container .introduction .in-in .titres .intro > span { font-weight: bold; }
+body #container .introduction .in-in .titres button { color: white; padding: 20px 50px; border: 0; overflow: hidden; font-size: 18px; border-radius: 3px; position: relative; cursor: pointer; }
+body #container .introduction .in-in .titres button:after { content: ''; position: absolute; height: 100%; width: 100%; left: 0; top: 0; background: rgba(0, 0, 0, 0.4); -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; -o-transition: all .3s ease-out; -ms-transition: all .3s ease-out; transition: all .3s ease-out; }
+body #container .introduction .in-in .titres .blue { background: #7EBE6B; }
+body #container .introduction .in-in .titres button[data-direction="right"]:hover:after { -webkit-transform: translate(100%, 0); -moz-transform: translate(100%, 0); -o-transform: translate(100%, 0); -ms-transform: translate(100%, 0); transform: translate(100%, 0); background: transparent; }
+body #container .plateforme { display: block; position: relative; margin: 0 auto; width: 900px; padding-top: 100px; overflow: hidden; }
+@media only screen and (max-width: 900px) { body #container .plateforme { width: 680px; } }
+@media only screen and (max-width: 650px) { body #container .plateforme { width: 270px; padding-top: 50px; } }
+body #container .plateforme .left { float: left; }
+body #container .plateforme .left h3 { font-family: akzidenzgroteskregular; font-size: 18px; text-transform: uppercase; color: #2E2D39; }
+body #container .plateforme .left h2 { font-family: akzidenzgroteskbold; font-size: 28px; color: #7EBE6B; text-transform: uppercase; line-height: 35px; padding-top: 20px; padding-bottom: 20px; }
+@media only screen and (max-width: 650px) { body #container .plateforme .left h2 { font-size: 24px; width: 310px; } }
+body #container .plateforme .left p { font-family: alegreya_sansregular; font-size: 18px; width: 450px; line-height: 24px; color: #6D6D75; }
+@media only screen and (max-width: 650px) { body #container .plateforme .left p { font-size: 16px; line-height: 21px; width: 260px; } }
+body #container .plateforme .prof { width: 300px; float: right; position: relative; }
+@media only screen and (max-width: 900px) { body #container .plateforme .prof { width: 200px; } }
+@media only screen and (max-width: 650px) { body #container .plateforme .prof { width: 230px; float: none; display: block; position: relative; margin: 0 auto; } }
+body #container .hashtags { position: relative; display: block; padding-top: 100px; background-color: #2E2D39; overflow: hidden; height: 100%; }
+@media only screen and (max-width: 650px) { body #container .hashtags { padding-top: 50px; padding-bottom: 50px; } }
+body #container .hashtags .in-hash { position: relative; margin: 0 auto; width: 900px; }
+@media only screen and (max-width: 900px) { body #container .hashtags .in-hash { width: 680px; } }
+@media only screen and (max-width: 650px) { body #container .hashtags .in-hash { width: 270px; } }
+body #container .hashtags .in-hash .cut { float: left; width: 400px; position: relative; }
+@media only screen and (max-width: 900px) { body #container .hashtags .in-hash .cut { width: 220px; } }
+@media only screen and (max-width: 650px) { body #container .hashtags .in-hash .cut { display: none; } }
+body #container .hashtags .in-hash h3 { font-family: akzidenzgroteskregular; font-size: 18px; text-transform: uppercase; color: white; text-align: right; }
+body #container .hashtags .in-hash h2 { text-align: right; font-family: akzidenzgroteskbold; font-size: 28px; text-transform: uppercase; line-height: 35px; padding-top: 20px; padding-bottom: 20px; color: #7EBE6B; }
+@media only screen and (max-width: 650px) { body #container .hashtags .in-hash h2 { font-size: 24px; width: 270px; } }
+body #container .hashtags .in-hash p { font-family: alegreya_sansregular; font-size: 18px; width: 450px; line-height: 24px; text-align: right; color: #6D6D75; float: right; }
+@media only screen and (max-width: 650px) { body #container .hashtags .in-hash p { font-size: 16px; line-height: 21px; width: 260px; } }
+body #container .mess { overflow: hidden; padding-bottom: 0; }
+body #container .mess .left { float: left; }
+body #container .mess .message { width: 300px; float: right; position: relative; }
+@media only screen and (max-width: 900px) { body #container .mess .message { width: 200px; } }
+body #container .wrap { background-color: #2E2D39; height: 250px; }
+body #container .wrap .testimonial-group { list-style: none; display: none; }
+body #container .wrap #testimonial { padding-top: 50px; text-align: center; color: #6D6D75; font-size: 24px; font-family: alegreya_sansregular; }
+body #container .wrap #testimonial .caro { background-position: 0 -24px; height: 62px; width: 63px; display: block; position: relative; margin: 0 auto; padding-bottom: 20px; }
+body #container .wrap #testimonial .ted { background-position: 0 -205px; height: 62px; width: 63px; display: block; position: relative; margin: 0 auto; padding-bottom: 20px; }
+body #container .wrap #testimonial .emma { background-position: 0 -142px; height: 62px; width: 63px; display: block; position: relative; margin: 0 auto; padding-bottom: 20px; }
+body #container .wrap #testimonial span { display: block; text-align: center; font-size: 20px; padding-top: 20px; }
+body #container .wrap #testimonial span:before { content: "~"; }
+body #container .download { position: relative; display: block; padding-top: 100px; overflow: hidden; margin: 0 auto; }
+@media only screen and (max-width: 650px) { body #container .download { padding-top: 50px; } }
+body #container .download p { font-family: akzidenzgroteskbold; font-size: 28px; display: block; text-transform: uppercase; padding-bottom: 60px; text-align: center; color: #2E2D39; }
+@media only screen and (max-width: 650px) { body #container .download p { font-size: 24px; line-height: 30px; } }
+body #container .download .cloud { background-position: 0 -86px; height: 59px; width: 68px; display: block; position: relative; margin: 0 auto; }
+body #container .download a { text-decoration: none; color: #7EBE6B; font-family: akzidenzgroteskbold; font-size: 18px; text-align: center; margin: 0 auto; position: relative; display: block; width: 200px; padding-top: 20px; }
+body #container .download a:hover { opacity: 0.7; }
+@media only screen and (max-width: 650px) { body #container .download a { width: 220px; } }
+body #container footer { position: relative; text-align: center; font-family: alegreya_sansregular; font-size: 14px; display: block; padding: 100px 0px 40px 0px; color: #6D6D75; }
+body #container footer .social { overflow: hidden; display: block; width: 300px; margin: 0 auto; padding-top: 10px; }
+body #container footer .social ul { list-style: none; }
+body #container footer .social ul li { display: inline-block; text-align: center; padding: 0 10px 0 10px; }
+body #container footer .social ul li a { text-transform: uppercase; text-decoration: none; color: #6D6D75; }
+body #container footer .social ul li .twitter:hover { color: #00bdf6; font-weight: bold; }
+body #container footer .social ul li .facebook:hover { color: #3b5998; font-weight: bold; }
+body #container footer .cond { padding-top: 10px; }
+body #container footer .cond a { color: #6D6D75; text-decoration: none; }
+body #container footer .cond a:hover { color: #2E2D39; }
+
+.photo { overflow: hidden; position: relative; background: url("../images/home.jpg"); background-size: cover; background-attachment: fixed; background-position: center center; height: 200px; }
+@media only screen and (max-width: 900px) { .photo { background-attachment: scroll; } }
+.photo .in { width: 900px; position: relative; display: block; margin: 0 auto; }
+.photo .in .logo { display: inline-block; position: relative; width: 130px; padding-top: 40px; }
+.photo .in h1 { font-family: akzidenzgroteskregular; font-size: 22px; text-transform: uppercase; color: #7EBE6B; padding-top: 30px; }
+
+.cond { width: 900px; position: relative; display: block; margin: 0 auto; padding-top: 50px; }
+.cond ul { list-style: none; }
+.cond ul h2 { font-family: akzidenzgroteskregular; font-size: 16px; text-transform: uppercase; color: #2E2D39; padding-bottom: 10px; padding-top: 30px; }
+.cond ul li { color: #6D6D75; font-family: akzidenzgroteskregular; font-size: 16px; line-height: 20px; }
